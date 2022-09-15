@@ -1,0 +1,201 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/icons/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Shahid Farooq | Web Developer</title>
+  </head>
+  <body>
+    <a name="top"></a>
+    <nav>
+      <h1>Shahid Farooq</h1>
+      <ul class="navigation">
+        <li><a href="#top" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Get in touch!</a></li>
+      </ul>
+    </nav>
+    <section class = "splash" id="splash">
+      <div class="container">
+        <canvas id="bgCanvas"></canvas>
+
+          <div class="intro_box">
+            <div class="intro">
+              <h1 class="animate__animated animate__fadeInDown">Hi, I'm <span style="color:#45CB85;">Shahid Farooq</span>.</h1>
+              <h2 class="animate__animated animate__fadeInUp">I'm a full stack web developer.</h2>
+              <div class="animate__animated animate__fadeInUp explore-box">
+                <div class="explore-button-wrapper">
+                  <a href="#about"class="nav-link explore-button">See More</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+      </div>
+    </section>
+    <section class="hero" id="about">
+      <img
+        src="assets/images/circle.jpg"
+        alt="Shahid-Farooq"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__fadeIn">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Hi, I'm Shahid, a full-stack web developer based in Bristol, UK.
+          I've got a passion for building dynamic, repsonsive websites and applications &
+          am currently looking for a junior developer role.
+        </p>
+      </div>
+    </section>
+    <section class="more-about">
+      <h2>The sales pitch (TBC!)</h2>
+        <div class="more-about-wrapper">
+          <p>
+            SAMPLE TEXT! Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse,
+            and nothing particular to interest me on shore,
+            I thought I would sail about a little and see the watery part of the world.
+            It is a way I have of driving off the spleen and regulating circulation.
+          </p>
+          <p>
+            Whenever I find myself growing grim about the mouth;
+            whenever it is a damp, drizzly November in my soul;
+            whenever I find myself involuntarily pausing before coffin warehouses,
+            and bringing up the rear of every funeral I meet;
+            and especially whenever my hypos get such an upper hand of me,
+          </p>
+          <p>
+
+            that it requires a strong moral principle to prevent me from deliberately stepping into the street,
+            and methodically knocking people’s hats off—then,
+            I account it high time to get to sea as soon as I can.
+            There is nothing surprising in this.If they but knew it, almost all men in their degree, some time or other
+          </p>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Skills</h2>
+      <div class="skills-wrapper">
+        <div class="skillset">
+          <img
+            src="assets/icons/icons8-html-5-480.png"
+            alt="HTML5"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3-480.png"
+            alt="CSS"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript-480.png"
+            alt="Javascript"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-ruby-programming-language-480.png"
+            alt="Ruby"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-sql-96.png"
+            alt="SQL"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="projects-title-wrapper">
+        <h2 class="projects-title">Projects</h2>
+      </div>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/icons/fall.png"
+            alt="frog"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Frog Run</h3>
+          <p class="project-details">
+            A simple platforming game coded entirely in ruby - Mario Bros eat your heart out...
+          </p>
+          <a href="" target="_blank" class="project-link">Check it Out!</a>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2>Have a question or want to work together?</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mdojegzy" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="footer" id="footer">
+      <div class="footer-wrapper">
+          <a href="https://github.com/SIFAR101" class="fa fa-github"></a>
+          <a href="https://www.linkedin.com/in/shahid-farooq-341816229/" class="fa fa-linkedin"></a>
+      </div>
+        </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
